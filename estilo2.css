@@ -1,0 +1,17 @@
+/* tags */
+body {
+  text-align: center;
+}
+/* IDs*/
+#login {
+  background-color: black;
+  color: beige;
+}
+#registro {
+  background-color: blue;
+  color: rebeccapurple;
+}
+/*classes */
+.copy {
+  font-size: 8px;
+}

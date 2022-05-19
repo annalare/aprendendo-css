@@ -1,0 +1,35 @@
+/* o asteristico seleciona tudo de uma págima html */
+* {
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#primeiro {
+  border: 1px solid green;
+  margin: 30px;
+}
+.segundo {
+  border: 5px solid rgb(130, 48, 133);
+  padding: 15px;
+}
+#primeiro,
+.segundo .navigation {
+  border: 5px solid rgb(130, 48, 133);
+  padding: 15px;
+  margin: 5px;
+}
+nav span {
+  color: indigo;
+  cursor: pointer;
+  transition: 300ms;
+}
+nav span:hover {
+  text-decoration: underline;
+  color: coral;
+  background-color: darkorange;
+}
+.segundo > p {
+  color: chartreuse;
+}
